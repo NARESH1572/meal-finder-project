@@ -1,12 +1,5 @@
 
 
-
-
-
-
-
-
-
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchCategories, fetchMealsByCategory } from '../features/meals/mealSlice';

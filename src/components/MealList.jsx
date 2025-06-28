@@ -1,27 +1,3 @@
-// import React from 'react';
-// import { useSelector } from 'react-redux';
-// import { Link } from 'react-router-dom';
-
-// const MealList = () => {
-//   const { meals } = useSelector((state) => state.meals);
-
-//   return (
-//     <div className="p-4 grid grid-cols-2 sm:grid-cols-4 gap-4">
-//       {meals.map((meal) => (
-//         <Link to={`/meal/${meal.idMeal}`} key={meal.idMeal} className="bg-white shadow p-2 rounded">
-//           <img src={meal.strMealThumb} alt={meal.strMeal} className="w-full h-24 object-cover rounded" />
-//           <h2 className="mt-2 text-center font-bold">{meal.strMeal}</h2>
-//         </Link>
-//       ))}
-//     </div>
-//   );
-// };
-
-// export default MealList;
-
-
-// i
-
 
 import React from 'react';
 import { useSelector } from 'react-redux';

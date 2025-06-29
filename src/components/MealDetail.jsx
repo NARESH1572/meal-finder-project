@@ -73,7 +73,6 @@ const MealDetail = () => {
           <p><strong>Source:</strong> <a href={meal.strSource} target="_blank" rel="noopener noreferrer">{meal.strSource}</a></p>
           <p><strong>Tags:</strong> {meal.strTags ? meal.strTags.split(',').join(', ') : 'None'}</p>
 
-          {/* Ingredients */}
           <div style={{ backgroundColor: '#f26522' }} className="text-white p-1 rounded mt-4 shadow-sm">
             <h5 className="fw-bold mb-3">Ingredients</h5>
             <div className="row">
@@ -85,7 +84,7 @@ const MealDetail = () => {
         </div>
       </div>
 
-      {/* Instructions */}
+    
       <div className="mt-5">
         <h2 className="fw-bold border-bottom pb-2" style={{ color: '#f26522' }}>Instructions</h2>
         <p className="border p-3 rounded" style={{ backgroundColor: '#f9f9f9' }}>

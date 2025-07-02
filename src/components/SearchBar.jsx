@@ -23,7 +23,7 @@ const SearchBar = () => {
         backgroundPosition: 'center',
       }}
     >
-      <div className="d-flex bg-white shadow rounded-pill overflow-hidden" style={{ maxWidth: '500px', width: '90%' }}>
+      <div className="d-flex bg-white shadow rounded-pill overflow-hidden" style={{ maxWidth: '501px', width: '90%' }}>
         <input
           type="text"
           className="form-control border-0 ps-4"

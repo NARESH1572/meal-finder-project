@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const MealList = () => {
   const { meals } = useSelector((state) => state.meals);
 
-  if (!meals || meals.length === 0) return <h5 className="text-center mt-4">No meals found.</h5>;
+  if (!meals || meals.length === 0) return <h5 className="text-center mt-4">No meals found</h5>;
 
   return (
     <div className="container my-4">

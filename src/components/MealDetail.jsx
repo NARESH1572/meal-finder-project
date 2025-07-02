@@ -43,7 +43,7 @@ const MealDetail = () => {
 
   return (
     <div className="container my-5">
-      {/* ✅ Top: Left (Image) + Right (Title + Info + Ingredients) */}
+      {/* Top: Left (Image) + Right (Title + Info + Ingredients) */}
       <div className="row align-items-start mb-4">
         {/* Left Image */}
         <div className="col-md-5 mb-4 mb-md-0">
@@ -93,7 +93,7 @@ const MealDetail = () => {
         </div>
       </div>
 
-      {/* ✅ Measures Section (Orange Border) */}
+      {/* Measures Section (Orange Border) */}
       <div className="p-3 border border-warning rounded shadow-sm mb-4">
         <h5 className="fw-bold mb-3 text-dark">Measure:</h5>
         <div className="row">
@@ -116,7 +116,7 @@ const MealDetail = () => {
         </div>
       </div>
 
-      {/* ✅ Instructions Section */}
+      {/*  Instructions Section */}
       <div className="mt-4">
         <h4 className="fw-bold text-dark mb-3">Instructions:</h4>
         <div className="border p-3 rounded bg-light">
